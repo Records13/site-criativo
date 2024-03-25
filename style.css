@@ -51,4 +51,33 @@ a:active{
 /*Iniciar Seção escolar*/
 
 /* crie um seletor (.) para a classe escola-imagem,determinando uma largura widht de 25%:*/
+.escola-imagam{
+  width: 25%; /*largura*/
+  height: 300px;/*largura*/
+  border-radius: 82px; /*para definir bordas arredondadas da imagem*/
+}
 
+/**/
+.escola{
+  background-image: -o-linear-gradient(#424242,#16cf16);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+
+/**/
+.escola-div-conteudo{
+  width: 45%;
+}
+
+/**/
+.escola-titulo{
+  padding: 24px 0;
+}
+
+/**/
+p{
+  padding: 0 40px ;
+}
