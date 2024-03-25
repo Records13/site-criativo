@@ -25,3 +25,30 @@ Crie um seletor para a classe .cabecalho-lista-item, adicionando nele
 a propriedade display com o valor inline-block:*/
 /*Aumente os espaçamentos entre os textos com a propriedade margin de valor 0 16px:*/
 /*Aumente a fonte através da propriedade font-size de valor 24px.*/
+
+.cabecalho-lista-item{
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 24px;
+}
+
+.cabecalho-lista-item a {
+  text-decoration: none;
+  color: red; /*cor*/
+}
+
+/*Efeito alterar a cor quando passa o mouse*/
+a:hover{
+  color: yellowgreen;
+}
+
+/*Alterar a cor quando clicar com o mouse*/
+a:active{
+  color: yellow (105, 144, 216) ;
+}
+
+
+/*Iniciar Seção escolar*/
+
+/* crie um seletor (.) para a classe escola-imagem,determinando uma largura widht de 25%:*/
+
